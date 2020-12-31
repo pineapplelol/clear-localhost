@@ -9,5 +9,5 @@
   "browser_action": {
     "default_popup": "popup.html"
   },
-  "permissions": ["http://localhost/*", "tabs", "browsingData", "storage"]
+  "permissions": ["http://localhost/*", "tabs", "browsingData"]
 }
