@@ -1,10 +1,10 @@
 {
   "name": "clear-localhost",
   "version": "0.1",
-  "description": "Reset cache on localhost reload.",
+  "description": "Clear cache on localhost reload.",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"]
   },
-  "permissions": ["http://localhost:3000/*", "tabs", "browsingData"]
+  "permissions": ["http://localhost/*", "tabs", "browsingData"]
 }
