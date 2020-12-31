@@ -6,5 +6,8 @@
   "background": {
     "scripts": ["background.js"]
   },
-  "permissions": ["http://localhost/*", "tabs", "browsingData"]
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["http://localhost/*", "tabs", "browsingData", "storage"]
 }
